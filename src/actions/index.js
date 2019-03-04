@@ -14,3 +14,11 @@ export function deleteMovie(movie){
     movie: movie
   }
 }
+
+
+export function updateUsername(username){
+  return {
+    type: 'UPDATE_USERNAME',
+    username: username
+  }
+}
