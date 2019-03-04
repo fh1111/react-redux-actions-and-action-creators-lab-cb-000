@@ -22,3 +22,11 @@ export function updateUsername(username){
     username: username
   }
 }
+
+
+export function resetUsername() {
+  return {
+    type: 'RESET_USERNAME',
+    username: 'default'
+  }
+}
