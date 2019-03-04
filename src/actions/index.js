@@ -6,3 +6,11 @@ export function addMovie(movie){
     movie: movie
   }
 }
+
+
+export function deleteMovie(movie){
+  return {
+    type: 'DELETE_MOVIE',
+    movie: movie
+  }
+}
